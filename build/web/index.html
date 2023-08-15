@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    
+    <title>Decake </title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc;
+             background-image: url('img/log .jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+            
+        }
+        
+        .container {
+            width: 420px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: #fff;
+          
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #555;
+        }
+        
+        input[type="text"], input[type="password"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: #f2f2f2;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+        
+        .msg-erro {
+            text-align: center;
+            color: #f00;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+                        
+        <center> <img src="img/logo.jpg"></center>
+
+        <h1>Login</h1>
+        <form action="estoque.html">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" placeholder="Coloque o nome do usuário" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Coloque sua senha aqui" required>
+            <input type="submit" value="Entrar"><a href="estoque.html"></a>
+        </form>
+        <div class="msg-erro"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css1/estilo.css">
+
+    <title>Menu - Controle de Estoque</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+        
+        #container {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Controle de Estoque</h1>
+        <center>
+        <a href="cadastro.html" id="btn-cadastrar"><button>Cadastrar Produto</button></a>
+        <a href="vprodutos.html" id="btn-visualizar"><button>Visualizar Produtos</button></a>
+        <a href="aprodutos.html" id="btn-atualizar"><button>Atualizar Produto</button></a>
+        <a href="delprodutos.html" id="btn-deletar"><button>Deletar Produto</button></a>
+        
+        <main>
+            <div class="logos">
+		<img src="img/client2.png" id="mgna" alt="Cl">
+                <h2>Cadastro de Clientes</h2> 
+                <a href="cadastro.html" class="btn">Ir</a>
+            </div>
+            <div class="logos">
+		<img src="img/produto.png" id="mgna" alt="cliente 2">
+		<h2>Cadastro de Produtos</h2>
+                <a href="cadastroprodutos.html" class="btn">Ir</a>
+            </div>
+            <div class="logos">
+		<img src="img/download.png" id="mgna" alt="logos 4">			
+                <h2>Consulta</h2>
+      		<a href="#" class="btn">Ir</a>
+'           </div>
+        </main>
+        </center>
+    </div>
+    
+    
+    <script>
+        document.getElementById("btn-cadastrar").addEventListener("click", function(){
+            // Ação ao clicar no botão cadastrar
+        });
+        
+        document.getElementById("btn-visualizar").addEventListener("click", function(){
+            // Ação ao clicar no botão visualizar
+        });
+        
+        document.getElementById("btn-atualizar").addEventListener("click", function(){
+            // Ação ao clicar no botão atualizar
+        });
+        
+        document.getElementById("btn-deletar").addEventListener("click", function(){
+            // Ação ao clicar no botão deletar
+        });
+        
+    </script>
+</body>
+</html>
